@@ -57,7 +57,7 @@ sup { vertical-align: super; font-size: 0.85em; }
 sub { vertical-align: sub; font-size: 0.85em; }
 
 code {
-    font: 0.85em Monaco, Courier, Monospace;
+    font: 0.85em Monaco, Consolas, Courier, Monospace;
 }
 
 blockquote {
@@ -261,7 +261,7 @@ code[class*="language-"], pre[class*="language-"] {
 	white-space: pre-wrap;
 	word-break: break-all;
 	word-wrap: break-word;
-	font-family: Menlo, Monaco, "Courier New", monospace;
+	font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 	font-size: 1em;
 	line-height: 1.5;
 	text-shadow: 0;
