@@ -7,7 +7,13 @@
 
     <h1><a href="{{url}}">{{title}}</a></h1>
 
-    <div class="post-content"><p>{{excerpt}}&hellip;</p></div>
+    <div class="post-content"><p>{{excerpt words="26"}}<a class="read-more" href="{{url}}">...&hellip;</p></div>
+
+<footer class="post-meta">
+      {{author}}
+      {{tags prefix=" on "}}
+      <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+    </footer>
     
 </article>
 
